@@ -1,0 +1,10 @@
+@keyframes fade-out {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+span {
+    animation-name: fade-out;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
