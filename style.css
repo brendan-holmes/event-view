@@ -3,8 +3,19 @@
     to {opacity: 0;}
 }
 
-span {
+.flash {
     animation-name: fade-out;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
+
+.mouse-object {
+    position:absolute;
+    transform:translate(-50%,-50%);
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    animation-name: fade-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
